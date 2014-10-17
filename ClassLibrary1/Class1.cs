@@ -8,5 +8,11 @@ namespace ClassLibrary1
 {
     public class Class1
     {
+        public String MyProperty { get; set; }
+
+        public Class1()
+        {
+            MyProperty = "Test";
+        }
     }
 }
